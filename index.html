@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Chakra+Petch:wght@300&family=Lato&family=Montserrat&family=Poppins:wght@500;800&family=Roboto:wght@500&family=Shadows+Into+Light&family=Source+Sans+Pro:ital,wght@0,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="adapt.css">
+    <title>Kindergarten | paypage</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="main">
+            <div class="main_left">
+                <h2 class="txt_main_left">Розрахувати <br> щомісячний платіж?🧐</h2>
+                <div class="input_place ip1">
+                    <h3 class="input_1_txt ml">Вік дитини</h3>
+                    <h3 id="age" class="input_2_txt ml">2</h3>
+                    <input id="range_inp" class="range_input" type="range" min="2" max="6" value="2" step="1">
+                </div>
+                <!-- input places start-->
+                <div class="input_place ip2" id="ip1">
+                    <h3 class="input_1_txt">Формат</h3>
+                    <h3 id="txt1" class="input_2_txt">Повний день</h3>
+                </div>
+                <div class="input_place ip2" id="ip2">
+                    <h3 class="input_1_txt">Харчування</h3>
+                    <h3 id="txt2" class="input_2_txt">2-х разове (сніданок-обід)</h3>
+                </div>
+                <div class="input_place ip2" id="ip3">
+                    <h3 class="input_1_txt">Вид оплати</h3>
+                    <h3 id="txt3" class="input_2_txt">Оплата за реквізитами щомісяця</h3>
+                </div>
+                <!-- input places end -->
+
+                <!-- blocks start -->
+                <div class="select_ip sip1" id="sip1">
+                    <div id="bl1" class="block">Повний день</div>
+                    <div id="bl2" class="block">Неповний день</div>
+                </div>
+                <div class="select_ip sip2" id="sip2">
+                    <div id="bl3" class="block">2-х разове (сніданок-обід)</div>
+                    <div id="bl4" class="block">4-х разове (сніданок, обід, перекус, вечеря)</div>
+                </div>
+                <div class="select_ip sip3" id="sip3">
+                    <div id="bl5" class="block">Оплата за реквізитами щомісяця</div>
+                    <div id="bl6" class="block">Автоматичне списання з картки що місяця</div>
+                </div>
+                <!-- blocks end -->
+
+            </div>
+            <div class="main_right">
+                <h2 class="txt_main_left">Загальні витрати💸</h2>
+                <h2 class="price" id="price">0₴</h2>
+                <hr>
+                <h3 class="small_txt">Вартість абонемента🍭</h3>
+                <h3 class="big_txt">24323₴</h3>
+                <h3 class="small_txt">Записуєш у садок більше, ніж одну дитину?</h3>
+                <h3 class="big_txt">10% знижки всі</h3>
+                <h3 class="small_txt">Приведеш друга/подругу?</h3>
+                <h3 class="big_txt">20% знижки на 1 місяць для двох</h3>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
